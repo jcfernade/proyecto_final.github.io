@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Reserva.css">
+    <title>Agencia de Viajes</title>
+</head>
+<body>
+    <header>
+
+        <div class="container" id="formContainer">
+            <label for="tipoViaje">Selecciona el tipo de viaje:</label>
+            <select id="tipoViaje" onchange="cambiarDestinos()">
+                <option value="crucero">Crucero</option>
+                <option value="vuelo">Vuelo</option>
+            </select>
+        
+            <label for="destino">Selecciona el destino:</label>
+            <select id="destino">
+            </select>
+        
+            <label for="fecha">Selecciona la fecha:</label>
+            <input type="date" id="fecha">
+        
+            <button onclick="enviarFormulario()">Enviar</button>
+        
+            <div id="gracias">¡Muchas gracias por tu reserva!</div>
+        </div>
+    <script src="Reserva.js"></script>
+</body>
+</html>

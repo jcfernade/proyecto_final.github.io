@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <title>Agencia de Viajes</title>
+</head>
+<body>
+    <header>
+        <h1>Agencia de Viajes</h1>
+        <nav>
+            <div class="plane-icon" onmouseover="movePlane()" onmouseout="stopPlaneMovement()";><img src="https://cdn-icons-png.flaticon.com/512/2089/2089059.png" alt="Avión" height="30px"  width="30px"></div>
+            <ul id="monumentos">
+                <li><img src="https://cdn-icons-png.flaticon.com/512/1086/1086223.png" alt="Torre Eiffel" height="50px"  width="50px"></li>
+                <li><img src="https://cdn-icons-png.flaticon.com/512/82/82532.png" alt="Big Ben" height="50px"  width="50px"></li>
+                <li><img src="https://cdn-icons-png.flaticon.com/512/631/631610.png" alt="Estatua libertad" height="50px"  width="50px"></li>
+            </ul>
+        </nav>
+    </header>
+    <p id ="userGreeting"></p>
+    <div class="fila1">
+    <div class="div-1">
+        <h1>Descubre nuestros destinos</h1>
+      </div>
+    </div>
+
+    <div class="fila2">
+      <div class="div-9">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="https://www.shutterstock.com/image-photo/maldives-islands-ocean-tropical-beach-600nw-1938868960.jpg" width="800px" height="500px">
+            </div>
+            <div class="mySlides fade">
+                <img src="https://www.lavanguardia.com/files/og_thumbnail/uploads/2017/05/15/5fa3c5d7ef234.jpeg" width="800px" height="500px">
+            </div>
+            <div class="mySlides fade">
+                <img src="https://static.wixstatic.com/media/a156b1_199fcd2f544f4bfe8e7b7dd456d9b2ed~mv2.jpg/v1/fill/w_640,h_476,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/a156b1_199fcd2f544f4bfe8e7b7dd456d9b2ed~mv2.jpg" width="800px" height="500px">
+            </div>
+            <div class="mySlides fade">
+                <img src="https://cdn.yate.co/img/blog/2023/22/cruceros-lfu.jpg" width="800px" height="500px">
+            </div>
+            <div class="mySlides fade">
+                <img src="https://es.japanspecialist.com/documents/569490/927986/1-10-monumentos-historicos-japoneses-que-no-te-puedes-perder.jpg/26126b51-adb4-9c95-e38c-ae15fd3bb536?t=1673865095413" width="800px" height="500px">
+            </div>
+            <div class="mySlides fade">
+                <img src="https://images.squarespace-cdn.com/content/v1/5a86b05bcf81e0af04936cc7/daec2dd4-4f14-46e4-8a9b-c8fc2819a469/que-ver-en-madrid-via.jpg" width="800px" height="500px">
+            </div>
+    
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+      </div>
+
+        <div class="div-3">
+
+            <p>Descubre el mundo con nuestra agencia de viajes, tu socio de confianza para experiencias de viaje inolvidables. <br>
+            </br><br>Nos enorgullece ofrecer una amplia gama de destinos emocionantes, desde playas paradisíacas hasta ciudades vibrantes y aventuras en la naturaleza. Con años de experiencia en la industria, nos esforzamos por brindar un servicio excepcional y personalizado para cada cliente.</br></p>
+
+          </div>
+        </div>
+
+        <div class="fila4">
+            <div class="div-8">
+    
+                <h2>¡Elige ya tu viaje!</h2>
+  
+              </div>
+              </div>
+          <div class="fila3">
+            <div class="parte1">
+              <div class="viaje" data-titulo="Vuelos" data-imagen="https://www.lne.es/ideas/aviones/images/img-index01.jpg">
+                <img src="https://www.lne.es/ideas/aviones/images/img-index01.jpg" alt="avión" height="200px"  width="290px">
+  
+    
+                </div>
+    
+                <div class="div-5">
+                  <h3>Vuelos</h3>  
+                  <p>Creemos que tu viaje comienza desde el momento en que reservas tu vuelo. Estamos aquí para ofrecerte un servicio de primera clase, asegurándonos de que
+                  <br>cada detalle esté cuidado, desde el check-in hasta el aterrizaje</br></p>
+    
+                </div>
+              </div>
+            <div class="parte2">
+              <div class="viaje" data-titulo="Cruceros" data-imagen="https://gestion.pe/resizer/5eM_5_OZqQsvYuaV7VhqVGcbtQI=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/WOT2YTRO4JDHLKCLW6AOT7AQJE.webp">
+                <img src="https://gestion.pe/resizer/5eM_5_OZqQsvYuaV7VhqVGcbtQI=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/WOT2YTRO4JDHLKCLW6AOT7AQJE.webp" alt="crucero" height="200px"  width="290px">
+              </div>
+    
+              <div class="div-7">
+                <h3>Cruceros</h3> 
+                <p>Explora los destinos más fascinantes a bordo de nuestros cruceros de lujo. Desde playas tropicales hasta ciudades históricas, te llevamos a lugares que solo habías soñado.
+                <br>Cuidamos cada detalle, desde el abordaje hasta llegada a puerto</br></p>
+    
+              </div>
+            </div>
+          </div>
+
+          <footer>
+            <p>&copy; 2023 Agencia de Viajes Increíbles</p>
+        </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

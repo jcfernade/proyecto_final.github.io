@@ -1,0 +1,173 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2022/08/fotografia-avion-2791125.jpg?tf=3840x');
+    background-size: cover;
+    color:black;
+    padding: 10px;
+    text-align: center;
+    font-size:30px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.plane-icon {
+    font-size: 24px;
+    cursor: pointer;
+    position: relative;
+}
+
+@keyframes movePlane {
+    from { transform: translateX(0); }
+    to { transform: translateX(80px); }
+}
+
+
+
+.fila1{
+    display: flex;
+    margin:auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 120px;
+  }
+.div-1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+.fila2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5px;
+    justify-content: center;
+  }
+.div-3{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    width:600px;
+    flex-direction: column;
+}
+
+.fila4{
+    display: flex;
+    margin:auto;
+    flex-wrap: wrap;
+    margin-left: 15px;
+  }
+
+.div-8{
+    color:blue;
+}
+
+.viajes{
+    margin-right: 20px;
+    margin-left:80px;
+    margin-bottom: 20px;
+  }
+  .div-5{
+    width: 300px;
+    margin-left:50px;
+    height: 200px;
+  }
+  .parte2{
+    display:flex;
+    flex-wrap: wrap;
+  }
+  .parte1{
+    display:flex;
+    flex-wrap: wrap;
+  }
+  
+  .div-7{
+    width: 300px;
+    margin-left:50px;
+    height: 200px;
+  }
+  .fila3{
+    display: flex;
+    margin:auto;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .div-9 {
+    margin-right: 20px;
+  }
+
+
+
+
+
+
+
+
+  .slideshow-container {
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+}
+
+.mySlides {
+    max-width: 800px; 
+    max-height: 800px; 
+    object-fit: cover;
+}
+
+.fade {
+    animation: fade 2s ease-in-out infinite;
+}
+
+@keyframes fade {
+    from { opacity: 1 }
+    to { opacity: 1 }
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.4);
+    border: none;
+    text-align: center;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.prev:hover, .next:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
